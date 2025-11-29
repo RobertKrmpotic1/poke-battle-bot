@@ -1,0 +1,11 @@
+{
+  "agent_id": "Test2",
+  "battle_format": "gen1randombattle",
+  "elo": 1000,
+  "wins": 0,
+  "losses": 0,
+  "draws": 0,
+  "total_battles": 0,
+  "generation": 0,
+  "neural_network": null
+}
