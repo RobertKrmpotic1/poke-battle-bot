@@ -96,6 +96,17 @@ Using conda and lower version of TF to support natively windows:
 
 **Note**: The UV approach is recommended as it uses TensorFlow 2.20+ with numpy 2.0+ support.
 
+## GPU Support
+
+**Supported Configuration:**
+- **TensorFlow**: 2.10.1
+- **CUDA Toolkit**: 11.2
+- **cuDNN**: 8.1.0
+- **Python**: 3.10-3.11
+- **NumPy**: <2.0.0
+
+For GPU acceleration, ensure CUDA 11.2 and cuDNN 8.1.0 are installed and added to your system PATH.
+
 ## Project Structure
 
 ```

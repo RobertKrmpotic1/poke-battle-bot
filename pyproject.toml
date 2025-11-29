@@ -3,13 +3,14 @@ name = "poke-battle-bot"
 version = "0.1.0"
 description = "Pokemon battle bot using genetic algorithms and neural networks with hexagonal architecture"
 readme = "README.md"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.10,<3.12"
 dependencies = [
-    "poke-env>=0.10.0",
-    "tensorflow>=2.18.0",
-    "numpy>=2.0.2",
+    "poke-env<0.10.0",
+    "tensorflow==2.10.1",
+    "numpy>=1.23.5,<2.0.0",
     "pandas>=2.0.0",
     "loguru>=0.7.0",
+    "ipykernel>=7.1.0",
 ]
 
 [project.optional-dependencies]
@@ -45,6 +46,9 @@ python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = false
+
+[tool.uv]
+required-environments = ["sys_platform == 'win32' and platform_machine == 'AMD64'"]
 
 [dependency-groups]
 dev = [
